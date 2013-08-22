@@ -1,0 +1,12 @@
+802225e1df0c113b4cb0b326e59b5964 *DESCRIPTION
+b2d98a2a75f476af223d53ab541b8600 *NAMESPACE
+8652aac94ba4c8846d3aeabcc434f8e8 *R/zoom-package.R
+5e9b9625aa009d1a5c5197c4e45ee420 *R/zoom.R
+ff7fa06999ebba6c2339bc640203be12 *inst/tests/test-zoom-check.R
+f17117977549e04e085d956432be74b6 *inst/tests/test-zoomplot.zoom.R
+39a566eb928ac733bb1128ee29492301 *man/in.zoom.Rd
+fd9d0ce8d1c09c46ff9e3d57cc7b59df *man/navigation.zoom.Rd
+44c4b4c4c7902e219f08c0c689dbfc35 *man/zm.Rd
+f00aa4416583d51a46e9cf535650feff *man/zoom-package.Rd
+536861cc88c55661a1d56d4abf825d00 *man/zoomplot.zoom.Rd
+2456c722cdc9d9d9cd3573a83d77b880 *tests/testall.R
