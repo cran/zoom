@@ -2,7 +2,7 @@
 \alias{zm}
 \title{Launch interaction on a plot}
 \usage{
-  zm(type = NULL, rp = NULL)
+  zm(type = "navigation", rp = NULL)
 }
 \arguments{
   \item{type}{the type of interaction with the plot.
@@ -26,8 +26,8 @@
   Allow to zoom/navigate in any open plot. The controls
   should be intuitive: \itemize{ \item{zoom in:}{ scroll
   up, or right click if no scrolling weel.} \item{zoom
-  out:}{ scroll down, or double click if no scrolling
-  weel.} \item{move:}{ left click and move } }
+  out:}{ scroll down, or Hold left + right click if no
+  working weel.} \item{move:}{ left click and move } }
 }
 \details{
   By default, zm() try to open a mouse interactive session.

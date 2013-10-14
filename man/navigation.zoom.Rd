@@ -1,8 +1,10 @@
-\name{navigation.zoom}
+\name{session.zoom}
 \alias{navigation.zoom}
 \alias{session.zoom}
 \title{Opening of an interactive zoom/navigate session.}
 \usage{
+  session.zoom(...)
+
   navigation.zoom(...)
 }
 \arguments{
@@ -30,7 +32,7 @@ session.zoom()
 }
 }
 \author{
-  Corentin M. Barbu
+  Corentin M. Barbu, Sebastian Gibb
 }
 \seealso{
   zm().

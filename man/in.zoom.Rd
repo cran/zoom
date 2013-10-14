@@ -1,11 +1,17 @@
 \name{in.zoom}
+\alias{inout.zoom}
 \alias{in.zoom}
+\alias{move.to.click.zoom}
 \alias{out.zoom}
 \alias{set.zoom}
 \alias{sq.zoom}
 \title{Direct access to zoom functionalities.}
 \usage{
   in.zoom(...)
+
+  move.to.click.zoom(...)
+
+  inout.zoom(...)
 
   out.zoom(...)
 
@@ -22,10 +28,15 @@
 \description{
   Direct selection of a zoom method of the "session" type.
   Possibly of use in scripts?
+
+  allow interactive in/out zoom in "session" mode
 }
 \note{
   Each function starts a different interactive sequence
-  \itemize{ \item{in.zoom(): }{each left click zooms in}
+  \itemize{ \item{inout.zoom(): }{left click within bounds
+  zooms in, outside bounds zoom out}
+  \item{move.to.click.zoom(): }{center plot arround left
+  click} \item{in.zoom(): }{each left click zooms in}
   \item{out.zoom(): }{each left click zooms out}
   \item{set.zoom(): }{ask for a magnification factor}
   \item{sq.zoom(): }{allow to click on the two corners of
