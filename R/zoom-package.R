@@ -3,8 +3,8 @@
 #' \tabular{ll}{
 #' Package: \tab zoom\cr
 #' Type: \tab Package\cr
-#' Version: \tab 2.0.4\cr
-#' Date: \tab 2013-10-14\cr
+#' Version: \tab 2.0.6\cr
+#' Date: \tab 2014-03-18\cr
 #' Depends: \tab R (>= 2.10.0)\cr
 #' Encoding: \tab UTF-8\cr
 #' License: \tab GPL (>= 3)\cr
@@ -12,7 +12,7 @@
 #' URL: \tab https://github.com/cbarbu/R-package-zoom\cr
 #' }
 #'
-#' zm(), called with any active plot allow to enter an interactive session to zoom/navigate any plot. The development version, as well as binary releases can be found at https://github.com/cbarbu/R-package-zoom
+#' zm(), enters an interactive session to zoom and navigate the active plot. The development version, as well as binary releases can be found at https://github.com/cbarbu/R-package-zoom
 #'
 #' @aliases zoom-package zoom
 #' @name zoom-package
